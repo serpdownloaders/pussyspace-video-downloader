@@ -1,0 +1,217 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/pussyspace-downloader",
+  "serply_link": "https://serp.ly/pussyspace-downloader",
+  "app_name": "Pussyspace Video Downloader",
+  "short_description": "Download & Save Pussyspace Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Pussyspace Downloader is a browser extension that helps you save video media detected on supported Pussyspace pages. Instead of relying on external paste-box sites or manual network inspection, this tool works directly from the active Pussyspace tab to find available MP4 or HLS candidates and save them through your browser's download system.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/pussyspace-downloader-fullscreen-01-9a7615d80e.webp",
+    "https://apps.serp.co/media/optimized-products/pussyspace-downloader-fullscreen-02-78b87f4c31.webp",
+    "https://apps.serp.co/media/optimized-products/pussyspace-downloader-fullscreen-03-228428aeda.webp",
+    "https://apps.serp.co/media/optimized-products/pussyspace-downloader-fullscreen-04-18aa4f69f0.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "How do I download a Pussyspace video?",
+      "answer": "Open a supported Pussyspace video page, allow the player to load, then use the extension workflow to detect available MP4 or HLS media candidates."
+    },
+    {
+      "question": "What formats does the extension support?",
+      "answer": "The expected shared downloader flow handles direct MP4 and HLS/M3U8 candidates when Pussyspace exposes usable media URLs."
+    },
+    {
+      "question": "Why might detection return nothing?",
+      "answer": "The player may not have loaded, the media URL may be hidden behind an unsupported flow, or the generated adapter may need Pussyspace-specific selectors."
+    },
+    {
+      "question": "Where are downloads saved?",
+      "answer": "Files are saved to a Pussyspace folder in your browser download directory. The exact path depends on your browser settings."
+    },
+    {
+      "question": "Does the extension require an account?",
+      "answer": "Yes. The shared SERP downloader pattern uses email OTP activation and 3 trial downloads. Confirm the exact entitlement setup in the generated build."
+    },
+    {
+      "question": "Is this extension release-ready?",
+      "answer": "The CSV marks the seed target as verified with solid handoff confidence, but the generated source was not fully present in this checkout. Real build inspection and playback QA are still required before public release."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Archive personal content you have permission to keep locally"
+    },
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Targets Pussyspace pages with direct URL matching for pussyspace.com and subdomains",
+    "Works from the active page after the player loads",
+    "Uses the shared extension flow for media detection and download",
+    "Includes 3 trial downloads to test the workflow",
+    "Saves organized files under a dedicated Pussyspace download folder",
+    "Matches Pussyspace pages with pussyspace.com and www.pussyspace.com URL patterns",
+    "Detects media candidates after the page player initializes",
+    "Handles exposed MP4 and HLS/M3U8 sources through the shared extension pipeline",
+    "Provides an in-page download manager with progress feedback",
+    "Includes a page and video context menu for quick access",
+    "Saves files to a dedicated Pussyspace download folder",
+    "Uses email verification for secure one-time password activation",
+    "Offers 3 free trial downloads before requiring a license"
+  ],
+  "content": {
+    "why": [
+      "Pussyspace video pages do not always expose a simple save button for the media playing in the browser. Native browser controls often hide the final stream URL behind player logic, and external downloader sites add extra steps and privacy concerns. Users who want to save videos for personal offline access need a tool that works directly from the page they are already on.",
+      "Pussyspace Downloader keeps the detection and download workflow inside the browser tab. After the player loads and media resources become available, the extension scans the active page for supported candidates and presents them in an organized interface. You choose the option you want and save it through the browser download flow without leaving Pussyspace."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open Pussyspace and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Open your browser and navigate to a Pussyspace video page.",
+      "Allow the page to fully load and the video player to initialize.",
+      "Click the extension icon in the toolbar or use the in-page download control.",
+      "The extension will scan the active page for available media candidates.",
+      "Review the detected options and select the quality you prefer.",
+      "Click the download button next to your chosen candidate.",
+      "Wait for the processing to complete and the file to save.",
+      "Find the saved video in your browser downloads folder under Pussyspace."
+    ],
+    "supported_formats": [
+      "Input: Direct MP4 streams and HLS/M3U8 playlists exposed by the Pussyspace page or player",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "Pussyspace viewers who want to save videos for personal offline access",
+      "Users who prefer browser extension workflows over external downloader sites",
+      "People looking for a private way to keep content without sharing URLs",
+      "Anyone testing the verified Pussyspace seed target during implementation QA"
+    ],
+    "use_cases": [
+      "Save a Pussyspace video for offline viewing when you do not have internet access",
+      "Archive personal content you have permission to keep locally",
+      "Avoid sending video URLs through third-party paste-box downloader sites",
+      "Test the generated extension candidate against real Pussyspace playback",
+      "Document detection gaps before the extension reaches a public release"
+    ],
+    "troubleshooting": [
+      "No media candidates are detected on the page. Make sure the video player has fully loaded and playback has started. The extension needs the player to initialize before media sources become available.",
+      "The download starts but does not complete. Check your internet connection and try again. Some streams require stable bandwidth for the full HLS-to-MP4 conversion to finish.",
+      "The extension does not appear on the page. Verify that you installed the correct build for your browser. Reload the Pussyspace tab after installation.",
+      "I see a quality option but it fails to download. That specific stream variant may not be fully accessible from your network or region. Try a different quality option if available.",
+      "The context menu option is missing. Right-click on the page or video element after the player has loaded. The context menu requires an active Pussyspace page to show the download option."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported Pussyspace page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "Pussyspace video detection depends on the player exposing usable media sources after initialization",
+      "The extension is a generated candidate and may not work on every Pussyspace page type"
+    ],
+    "about": [
+      "Pussyspace is an adult video platform featuring a wide range of content from various creators. Pussyspace Downloader helps users save detected video media directly from the browser page without relying on external tools."
+    ]
+  },
+  "serpx_link": "https://serpx.link/pussyspace-downloader",
+  "github_topics": [
+    "pussyspace-download",
+    "pussyspace-downloader",
+    "pussyspace-video-downloader",
+    "pussyspace-video-downloader-online",
+    "pussyspace-video-downloader-mac",
+    "pussyspace-video-downloader-window",
+    "pussyspace-video-downloader-free",
+    "pussyspace-video-downloader-extension",
+    "pussyspace-video-downloader-app",
+    "pussyspace-video-downloader-chrome",
+    "pussyspace-video-downloader-from-url",
+    "how-to-download-pussyspace-videos",
+    "how-to-download-pussyspace-videos-mac",
+    "how-to-download-pussyspace-videos-windows",
+    "how-to-download-pussyspace-videos-online",
+    "how-to-download-pussyspace-videos-free",
+    "how-to-download-from-pussyspace",
+    "how-to-download-videos-from-pussyspace",
+    "download-pussyspace-videos",
+    "pussyspace-video-tutorial",
+    "save-pussyspace-videos",
+    "pussyspace-video-content-saver",
+    "how-to-download-pussyspace-videos-for-free"
+  ],
+  "hashtags": [
+    "#PussyspaceDownload",
+    "#PussyspaceDownloader",
+    "#PussyspaceVideoDownloader",
+    "#PussyspaceVideoDownloaderOnline",
+    "#PussyspaceVideoDownloaderMac",
+    "#PussyspaceVideoDownloaderWindow",
+    "#PussyspaceVideoDownloaderFree",
+    "#PussyspaceVideoDownloaderExtension",
+    "#PussyspaceVideoDownloaderApp",
+    "#PussyspaceVideoDownloaderChrome",
+    "#PussyspaceVideoDownloaderFromURL",
+    "#HowToDownloadPussyspaceVideos",
+    "#HowToDownloadPussyspaceVideosMac",
+    "#HowToDownloadPussyspaceVideosWindows",
+    "#HowToDownloadPussyspaceVideosOnline",
+    "#HowToDownloadPussyspaceVideosFree",
+    "#HowToDownloadFromPussyspace",
+    "#HowToDownloadVideosFromPussyspace",
+    "#DownloadPussyspaceVideos",
+    "#PussyspaceVideoTutorial",
+    "#SavePussyspaceVideos",
+    "#PussyspaceVideoContentSaver",
+    "#HowToDownloadPussyspaceVideosForFree"
+  ],
+  "youtube_tags": [
+    "Pussyspace Download",
+    "Pussyspace Downloader",
+    "Pussyspace Video Downloader",
+    "Pussyspace Video Downloader Online",
+    "Pussyspace Video Downloader Mac",
+    "Pussyspace Video Downloader Window",
+    "Pussyspace Video Downloader Free",
+    "Pussyspace Video Downloader Extension",
+    "Pussyspace Video Downloader App",
+    "Pussyspace Video Downloader Chrome",
+    "Pussyspace Video Downloader From URL",
+    "How To Download Pussyspace Videos",
+    "How To Download Pussyspace Videos Mac",
+    "How To Download Pussyspace Videos Windows",
+    "How To Download Pussyspace Videos Online",
+    "How To Download Pussyspace Videos Free",
+    "How To Download From Pussyspace",
+    "How To Download Videos From Pussyspace",
+    "Download Pussyspace Videos",
+    "Pussyspace Video Tutorial",
+    "Save Pussyspace Videos",
+    "Pussyspace Video Content Saver",
+    "How To Download Pussyspace Videos For Free"
+  ]
+}
